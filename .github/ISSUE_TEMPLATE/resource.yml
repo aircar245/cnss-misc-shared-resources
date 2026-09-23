@@ -9,7 +9,7 @@ body:
       value: |
         感谢分享！请尽量填写完整，方便审核后直接展示。
 
-        网站名称会在提交后自动同步为 Issue 标题，无需另外填写标题。
+        ↑这一栏不用写，系统会自己填标题。
   - type: input
     id: name
     attributes:
