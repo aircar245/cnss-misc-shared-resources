@@ -1,8 +1,8 @@
 name: Generate resource pull request
 
 on:
-  issue_comment:
-    types: [created]
+  issues:
+    types: [labeled]
 
 permissions:
   contents: write
@@ -11,12 +11,7 @@ permissions:
 
 jobs:
   generate:
-    if: >-
-      github.event.issue.pull_request == null &&
-      startsWith(github.event.comment.body, '/approve') &&
-      (github.event.comment.author_association == 'OWNER' ||
-       github.event.comment.author_association == 'MEMBER' ||
-       github.event.comment.author_association == 'COLLABORATOR')
+    if: github.event.label.name == '已审核'
     runs-on: ubuntu-latest
     steps:
       - name: Generate resource file and pull request
@@ -26,6 +21,29 @@ jobs:
             const issue = context.payload.issue;
             const body = issue.body || '';
             const newline = String.fromCharCode(10);
+            const marker = '<!-- resource-automation:' + issue.number + ' -->';
+
+            let permission = 'none';
+            try {
+              const access = await github.rest.repos.getCollaboratorPermissionLevel({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                username: context.actor
+              });
+              permission = access.data.permission;
+            } catch {}
+            if (!['admin', 'maintain', 'write'].includes(permission)) {
+              return;
+            }
+
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue.number
+            });
+            if (comments.some((comment) => (comment.body || '').includes(marker))) {
+              return;
+            }
 
             const field = (label) => {
               const heading = '### ' + label;
@@ -41,6 +59,7 @@ jobs:
               .split(newline)
               .join(' ')
               .trim();
+            const yamlValue = (value) => JSON.stringify(oneLine(value));
 
             const name = oneLine(field('网站名称')) || ('Issue #' + issue.number);
             const url = oneLine(field('网站网址'));
@@ -64,7 +83,7 @@ jobs:
               repo,
               ref: 'heads/' + base
             });
-            const branch = 'resource/issue-' + issue.number;
+            const branch = 'resource-issue-' + issue.number;
             let branchSha = baseRef.data.object.sha;
 
             try {
@@ -84,16 +103,15 @@ jobs:
             }
 
             const path = 'resources/' + issue.number + '.md';
-            const safeLine = (value) => oneLine(value).split(':').join(' ').split('#').join(' ');
             const content = [
               '---',
-              'name: ' + safeLine(name),
-              'url: ' + safeLine(url),
-              'type: ' + safeLine(type),
-              'category: ' + safeLine(category),
-              'network: ' + safeLine(network),
-              'docs: ' + safeLine(docs),
-              'source_issue: ' + issue.html_url,
+              'name: ' + yamlValue(name),
+              'url: ' + yamlValue(url),
+              'type: ' + yamlValue(type),
+              'category: ' + yamlValue(category),
+              'network: ' + yamlValue(network),
+              'docs: ' + yamlValue(docs),
+              'source_issue: ' + yamlValue(issue.html_url),
               '---',
               '',
               summary,
@@ -134,7 +152,7 @@ jobs:
                 title: '审核通过：' + name,
                 head: branch,
                 base,
-                body: '由资源 Issue #' + issue.number + ' 审核通过后自动生成。'
+                body: '由资源 Issue #' + issue.number + ' 添加“已审核”标签后自动生成。'
               })).data;
             }
 
@@ -142,5 +160,5 @@ jobs:
               owner,
               repo,
               issue_number: issue.number,
-              body: '已生成资源 PR：#' + pr.number
+              body: marker + newline + '已生成资源 PR：#' + pr.number
             });
