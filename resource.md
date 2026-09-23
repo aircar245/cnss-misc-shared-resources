@@ -75,6 +75,16 @@
 </details>
 </blockquote>
 
+<!-- resource:36 -->
+<table>
+<tbody>
+<tr><td><strong>名称</strong></td><td><a href="https://www.baidu.com">？？</a></td></tr>
+<tr><td><strong>简介</strong></td><td>？？？</td></tr>
+<tr><td><strong>科学上网</strong></td><td>不需要</td></tr>
+</tbody>
+</table>
+<!-- /resource:36 -->
+
 <!-- /category:CTF%20%3E%20%E5%B7%A5%E5%85%B7 -->
 </details>
 </blockquote>
