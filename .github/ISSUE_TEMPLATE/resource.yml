@@ -24,12 +24,13 @@ body:
       placeholder: https://example.com
     validations:
       required: true
+
   - type: input
     id: category
     attributes:
       label: 分类
-      description: '当前已有分类：CTF > 工具。分类会持续增加；请按“大分类 > 小分类”填写，审核时会统一调整。'
-      placeholder: CTF > 工具
+      description: '请按“大分类 > 小分类”填写；目录以仓库根目录 resource.md 的最新内容为准，审核时会统一调整。'
+      placeholder: 例如：CTF > 工具
     validations:
       required: true
   - type: textarea
