@@ -158,15 +158,22 @@ jobs:
             if (!categoryParts.length) categoryParts.push('未分类');
             const categoryStart = (parts) => '<!-- category:' + encodeURIComponent(parts.join(' > ')) + ' -->';
             const categoryEnd = (parts) => '<!-- /category:' + encodeURIComponent(parts.join(' > ')) + ' -->';
-            const categoryBlock = (parts) => [
-              '<details>',
-              '<summary>📁 <strong>' + html(parts[parts.length - 1]) + '</strong></summary>',
-              '',
-              categoryStart(parts),
-              '',
-              categoryEnd(parts),
-              '</details>'
-            ].join(newline);
+            const categoryBlock = (parts) => {
+              const block = [
+                '<details>',
+                '<summary>📁 <strong>' + html(parts[parts.length - 1]) + '</strong></summary>',
+                '',
+                categoryStart(parts),
+                '',
+                categoryEnd(parts),
+                '</details>'
+              ];
+              if (parts.length > 1) {
+                block.unshift('<blockquote>');
+                block.push('</blockquote>');
+              }
+              return block.join(newline);
+            };
             const insertBefore = (source, markerText, insertion) => {
               const index = source.indexOf(markerText);
               if (index < 0) return source.trimEnd() + newline + newline + insertion + newline;
