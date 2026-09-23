@@ -24,6 +24,24 @@
 </table>
 <!-- /resource:26 -->
 
+<details>
+<summary>📁 <strong>然后呢</strong></summary>
+
+<!-- category:CTF%20%3E%20%E5%B7%A5%E5%85%B7%20%3E%20%E7%84%B6%E5%90%8E%E5%91%A2 -->
+
+<!-- resource:29 -->
+<table>
+<tbody>
+<tr><td><strong>名称</strong></td><td><a href="https://www.baidu.com">你在说什么</a></td></tr>
+<tr><td><strong>简介</strong></td><td>不知道</td></tr>
+<tr><td><strong>科学上网</strong></td><td>需要</td></tr>
+</tbody>
+</table>
+<!-- /resource:29 -->
+
+<!-- /category:CTF%20%3E%20%E5%B7%A5%E5%85%B7%20%3E%20%E7%84%B6%E5%90%8E%E5%91%A2 -->
+</details>
+
 <!-- /category:CTF%20%3E%20%E5%B7%A5%E5%85%B7 -->
 </details>
 
