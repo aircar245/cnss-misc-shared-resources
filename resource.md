@@ -5,12 +5,12 @@
 <!-- resource-catalog:v1 -->
 
 <details>
-<summary>📂 <strong>CTF</strong></summary>
+<summary>📁 <strong>CTF</strong></summary>
 
 <!-- category:CTF -->
 
 <details>
-<summary>🧰 <strong>工具</strong></summary>
+<summary>📁 <strong>工具</strong></summary>
 
 <!-- category:CTF%20%3E%20%E5%B7%A5%E5%85%B7 -->
 
