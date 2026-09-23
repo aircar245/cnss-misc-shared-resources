@@ -7,9 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        感谢分享！请尽量填写完整，方便审核后直接展示。
-
-        网站名称会在提交后自动同步为 Issue 标题；标题栏是 GitHub 固定项，无法删除。
+        这栏不用填，系统自动生成。
   - type: input
     id: name
     attributes:
@@ -30,7 +28,7 @@ body:
     id: category
     attributes:
       label: 分类
-      description: '当前目录可在 [resource.md](https://github.com/aircar245/cnss-misc-shared-resource/blob/main/resource.md) 查看；优先填写已有分类，格式为“大分类 > 小分类”，例如“CTF > 工具”。'
+      description: '当前已有分类：CTF > 工具。分类会持续增加；请按“大分类 > 小分类”填写，审核时会统一调整。'
       placeholder: CTF > 工具
     validations:
       required: true
