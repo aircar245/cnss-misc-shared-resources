@@ -14,36 +14,63 @@
 
 请确保网址合法、安全、有实际价值。
 
-## CTF实用工具
+<details>
+<summary>CTF 实用工具</summary>
 
-### WEB
-
-暂无
-
-### RE
+<details>
+<summary>WEB</summary>
 
 暂无
 
-### PWN
+</details>
+
+<details>
+<summary>RE</summary>
 
 暂无
 
-### CRY
+</details>
+
+<details>
+<summary>PWN</summary>
 
 暂无
 
-### DEV
+</details>
+
+<details>
+<summary>CRY</summary>
 
 暂无
 
-### SA
+</details>
+
+<details>
+<summary>DEV</summary>
 
 暂无
 
-### HPC
+</details>
+
+<details>
+<summary>SA</summary>
 
 暂无
 
-### DESIGN
+</details>
+
+<details>
+<summary>HPC</summary>
 
 暂无
+
+</details>
+
+<details>
+<summary>DESIGN</summary>
+
+暂无
+
+</details>
+
+</details>
