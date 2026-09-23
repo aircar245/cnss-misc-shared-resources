@@ -5,19 +5,32 @@
 <!-- resource-catalog:v1 -->
 
 <details>
-<summary>CTF</summary>
+<summary>📂 <strong>CTF</strong></summary>
 
 <!-- category:CTF -->
 
 <details>
-<summary>工具</summary>
+<summary>🧰 <strong>工具</strong></summary>
 
 <!-- category:CTF%20%3E%20%E5%B7%A5%E5%85%B7 -->
 
 <!-- resource:5 -->
-> <a href="https://www.baidu.com">losslesscut</a><br>
-> 查询资料<br>
-> 科学上网：不确定
+<table>
+<tbody>
+<tr>
+<td><strong>名称</strong></td>
+<td><a href="https://www.baidu.com">losslesscut</a></td>
+</tr>
+<tr>
+<td><strong>简介</strong></td>
+<td>查询资料</td>
+</tr>
+<tr>
+<td><strong>科学上网</strong></td>
+<td>不确定</td>
+</tr>
+</tbody>
+</table>
 <!-- /resource:5 -->
 
 <!-- /category:CTF%20%3E%20%E5%B7%A5%E5%85%B7 -->
