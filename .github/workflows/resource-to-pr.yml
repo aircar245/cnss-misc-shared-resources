@@ -234,6 +234,20 @@ jobs:
                 body: '由资源 Issue #' + issue.number + ' 添加“已审核”标签后自动生成。'
               })).data;
             }
+            try {
+              await github.graphql(`
+                mutation($pullRequestId: ID!, $mergeMethod: PullRequestMergeMethod!) {
+                  enablePullRequestAutoMerge(input: { pullRequestId: $pullRequestId, mergeMethod: $mergeMethod }) {
+                    pullRequest { number }
+                  }
+                }
+              `, {
+                pullRequestId: pr.node_id,
+                mergeMethod: 'SQUASH'
+              });
+            } catch (error) {
+              core.warning('无法开启自动合并：' + error.message);
+            }
             await github.rest.issues.createComment({
               owner,
               repo,
