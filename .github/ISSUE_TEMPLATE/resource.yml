@@ -25,6 +25,21 @@ body:
     validations:
       required: true
 
+  - type: markdown
+    attributes:
+      value: |
+        当前目录结构：
+
+        <!-- resource-category-tree:start -->
+        ```text
+        CTF
+        └─ 工具
+           ├─ 然后呢
+           └─ 工具
+              └─ 工具
+        ```
+        <!-- resource-category-tree:end -->
+
   - type: input
     id: category
     attributes:
