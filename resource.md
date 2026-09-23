@@ -9,6 +9,7 @@
 
 <!-- category:CTF -->
 
+<blockquote>
 <details>
 <summary>📁 <strong>工具</strong></summary>
 
@@ -24,6 +25,7 @@
 </table>
 <!-- /resource:26 -->
 
+<blockquote>
 <details>
 <summary>📁 <strong>然后呢</strong></summary>
 
@@ -41,12 +43,15 @@
 
 <!-- /category:CTF%20%3E%20%E5%B7%A5%E5%85%B7%20%3E%20%E7%84%B6%E5%90%8E%E5%91%A2 -->
 </details>
+</blockquote>
 
+<blockquote>
 <details>
 <summary>📁 <strong>工具</strong></summary>
 
 <!-- category:CTF%20%3E%20%E5%B7%A5%E5%85%B7%20%3E%20%E5%B7%A5%E5%85%B7 -->
 
+<blockquote>
 <details>
 <summary>📁 <strong>工具</strong></summary>
 
@@ -64,12 +69,15 @@
 
 <!-- /category:CTF%20%3E%20%E5%B7%A5%E5%85%B7%20%3E%20%E5%B7%A5%E5%85%B7%20%3E%20%E5%B7%A5%E5%85%B7 -->
 </details>
+</blockquote>
 
 <!-- /category:CTF%20%3E%20%E5%B7%A5%E5%85%B7%20%3E%20%E5%B7%A5%E5%85%B7 -->
 </details>
+</blockquote>
 
 <!-- /category:CTF%20%3E%20%E5%B7%A5%E5%85%B7 -->
 </details>
+</blockquote>
 
 <!-- /category:CTF -->
 </details>
