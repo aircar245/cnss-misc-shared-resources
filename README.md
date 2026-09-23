@@ -2,75 +2,25 @@
 
 有好东西，欢迎大家一起分享和维护。
 
+## 资源目录
+
+打开 [resource.md](resource.md)，按分类展开即可查看资源卡片。
+
+每张资源卡片固定展示三行：
+
+1. 网站名称（可点击打开）
+2. 网站或工具的一句话介绍
+3. 是否需要科学上网
+
 ## 如何提交资源
 
 请前往 [Issues](../../issues) → New issue，并填写：
 
-- 网站名称：
-- 网站网址：
-- 推荐分类：
-- 一句话介绍：
+- 网站名称
+- 网站网址
+- 推荐分类（可使用“分类 > 子分类”继续细分）
+- 一句话介绍
+- 使用说明或学习资料链接（如有）
 - 是否需要科学上网
 
-请确保网址合法、安全、有实际价值。
-
-<details>
-<summary>CTF 实用工具</summary>
-
-<details>
-<summary>WEB</summary>
-
-暂无
-
-</details>
-
-<details>
-<summary>RE</summary>
-
-暂无
-
-</details>
-
-<details>
-<summary>PWN</summary>
-
-暂无
-
-</details>
-
-<details>
-<summary>CRY</summary>
-
-暂无
-
-</details>
-
-<details>
-<summary>DEV</summary>
-
-暂无
-
-</details>
-
-<details>
-<summary>SA</summary>
-
-暂无
-
-</details>
-
-<details>
-<summary>HPC</summary>
-
-暂无
-
-</details>
-
-<details>
-<summary>DESIGN</summary>
-
-暂无
-
-</details>
-
-</details>
+请确保网址合法、安全、有实际价值。提交后由维护者审核，审核通过的资源会自动进入资源目录。
