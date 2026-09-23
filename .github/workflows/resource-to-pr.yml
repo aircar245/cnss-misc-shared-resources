@@ -160,7 +160,7 @@ jobs:
             const categoryEnd = (parts) => '<!-- /category:' + encodeURIComponent(parts.join(' > ')) + ' -->';
             const categoryBlock = (parts) => [
               '<details>',
-              '<summary>' + html(parts[parts.length - 1]) + '</summary>',
+              '<summary>📂 <strong>' + html(parts[parts.length - 1]) + '</strong></summary>',
               '',
               categoryStart(parts),
               '',
@@ -188,9 +188,13 @@ jobs:
               : '');
             const resourceBlock = [
               resourceStart,
-              '> <a href="' + html(url) + '">' + html(name) + '</a><br>',
-              '> ' + intro + '<br>',
-              '> 科学上网：' + html(network || '未填写'),
+              '<table>',
+              '<tbody>',
+              '<tr><td><strong>名称</strong></td><td><a href="' + html(url) + '">' + html(name) + '</a></td></tr>',
+              '<tr><td><strong>简介</strong></td><td>' + intro + '</td></tr>',
+              '<tr><td><strong>科学上网</strong></td><td>' + html(network || '未填写') + '</td></tr>',
+              '</tbody>',
+              '</table>',
               resourceEnd
             ].join(newline);
             const oldStart = catalog.indexOf(resourceStart);
