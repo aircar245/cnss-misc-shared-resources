@@ -48,3 +48,29 @@
 
 <!-- /category:CTF -->
 </details>
+
+<details>
+<summary>📁 <strong>CCF</strong></summary>
+
+<!-- category:CCF -->
+
+<details>
+<summary>📁 <strong>公公</strong></summary>
+
+<!-- category:CCF%20%3E%20%E5%85%AC%E5%85%AC -->
+
+<!-- resource:18 -->
+<table>
+<tbody>
+<tr><td><strong>名称</strong></td><td><a href="https://www.baidu.com">白白白</a></td></tr>
+<tr><td><strong>简介</strong></td><td>shazi</td></tr>
+<tr><td><strong>科学上网</strong></td><td>不需要</td></tr>
+</tbody>
+</table>
+<!-- /resource:18 -->
+
+<!-- /category:CCF%20%3E%20%E5%85%AC%E5%85%AC -->
+</details>
+
+<!-- /category:CCF -->
+</details>
