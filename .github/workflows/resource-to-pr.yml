@@ -224,6 +224,126 @@ jobs:
             };
             if (catalogSha) fileUpdate.sha = catalogSha;
             await github.rest.repos.createOrUpdateFileContents(fileUpdate);
+            const formPath = '.github/ISSUE_TEMPLATE/resource.yml';
+            let form = '';
+            let formSha;
+            try {
+              const existingForm = await github.rest.repos.getContent({
+                owner,
+                repo,
+                path: formPath,
+                ref: branch
+              });
+              if (!Array.isArray(existingForm.data)) {
+                formSha = existingForm.data.sha;
+                form = Buffer.from(existingForm.data.content, 'base64').toString('utf8');
+              }
+            } catch (error) {
+              core.warning('读取 Issue Form 失败：' + error.message);
+            }
+            if (form && formSha) {
+              const treeMarkerStart = '<!-- resource-category-tree:start -->';
+              const treeMarkerEnd = '<!-- resource-category-tree:end -->';
+              const paths = [];
+              const markerPattern = /<!-- category:([^ ]+) -->/g;
+              for (const match of catalog.matchAll(markerPattern)) {
+                let decoded;
+                try {
+                  decoded = decodeURIComponent(match[1]);
+                } catch {
+                  continue;
+                }
+                const parts = decoded.split(' > ').map((part) => part.trim()).filter(Boolean);
+                const key = parts.join(' > ');
+                if (parts.length && !paths.some((path) => path.join(' > ') === key)) {
+                  paths.push(parts);
+                }
+              }
+              const roots = [];
+              const findOrCreate = (nodes, name) => {
+                let node = nodes.find((item) => item.name === name);
+                if (!node) {
+                  node = { name, children: [] };
+                  nodes.push(node);
+                }
+                return node;
+              };
+              for (const parts of paths) {
+                let nodes = roots;
+                for (const part of parts) {
+                  const node = findOrCreate(nodes, part);
+                  nodes = node.children;
+                }
+              }
+              const treeLines = [];
+              const renderTree = (nodes, prefix, rootLevel) => {
+                nodes.forEach((node, index) => {
+                  const last = index === nodes.length - 1;
+                  treeLines.push(rootLevel
+                    ? prefix + node.name
+                    : prefix + (last ? '└─ ' : '├─ ') + node.name);
+                  if (node.children.length) {
+                    renderTree(node.children, rootLevel ? '' : prefix + (last ? '   ' : '│  '), false);
+                  }
+                });
+              };
+              renderTree(roots, '', true);
+              if (!treeLines.length) treeLines.push('（暂无分类）');
+              const fence = String.fromCharCode(96).repeat(3) + 'text';
+              const treeLinesWithFence = [
+                treeMarkerStart,
+                fence,
+                ...treeLines,
+                String.fromCharCode(96).repeat(3),
+                treeMarkerEnd
+              ];
+              const formLines = form.split(newline);
+              const startIndex = formLines.findIndex((line) => line.includes(treeMarkerStart));
+              const endIndex = startIndex < 0
+                ? -1
+                : formLines.findIndex((line, index) => index >= startIndex && line.includes(treeMarkerEnd));
+              let updatedForm;
+              if (startIndex >= 0 && endIndex >= startIndex) {
+                formLines.splice(
+                  startIndex,
+                  endIndex - startIndex + 1,
+                  ...treeLinesWithFence.map((line) => '        ' + line)
+                );
+                updatedForm = formLines.join(newline);
+              } else {
+                const categoryIdIndex = formLines.findIndex((line) => line.trim() === 'id: category');
+                if (categoryIdIndex < 0) {
+                  core.setFailed('Issue Form 缺少 category 字段，无法写入目录树');
+                  return;
+                }
+                let categoryItemIndex = categoryIdIndex;
+                while (categoryItemIndex > 0 && !formLines[categoryItemIndex].trim().startsWith('- type:')) {
+                  categoryItemIndex -= 1;
+                }
+                const markdownBlock = [
+                  '  - type: markdown',
+                  '    attributes:',
+                  '      value: |',
+                  '        当前目录结构：',
+                  '',
+                  ...treeLinesWithFence.map((line) => '        ' + line),
+                  ''
+                ];
+                formLines.splice(categoryItemIndex, 0, ...markdownBlock);
+                updatedForm = formLines.join(newline);
+              }
+              if (updatedForm !== form) {
+                await github.rest.repos.createOrUpdateFileContents({
+                  owner,
+                  repo,
+                  path: formPath,
+                  message: 'Update category tree in issue form from issue #' + issue.number,
+                  content: Buffer.from(updatedForm, 'utf8').toString('base64'),
+                  sha: formSha,
+                  branch
+                });
+              }
+            }
             const openPrs = await github.rest.pulls.list({
               owner,
               repo,
