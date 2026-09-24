@@ -33,6 +33,16 @@
 
 <!-- category:%E7%BD%91%E5%AE%89%20%3E%20%E5%A4%A7%E9%A1%B9 -->
 
+<!-- resource:50 -->
+<table>
+<tbody>
+<tr><td><strong>名称</strong></td><td><a href="https://ctf2.dasctf.com/explorer">CTF2</a></td></tr>
+<tr><td><strong>简介</strong></td><td>很多人都在用的CTF靶场，可以在里面练手</td></tr>
+<tr><td><strong>科学上网</strong></td><td>不需要</td></tr>
+</tbody>
+</table>
+<!-- /resource:50 -->
+
 <!-- /category:%E7%BD%91%E5%AE%89%20%3E%20%E5%A4%A7%E9%A1%B9 -->
 </details>
 </blockquote>
