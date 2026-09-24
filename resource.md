@@ -201,6 +201,16 @@
 
 <!-- category:%E6%97%A5%E7%94%A8%20%3E%20%E6%B8%B8%E6%88%8F -->
 
+<!-- resource:59 -->
+<table>
+<tbody>
+<tr><td><strong>名称</strong></td><td><a href="https://store.steampowered.com/about/">Steam</a></td></tr>
+<tr><td><strong>简介</strong></td><td>懂的都懂</td></tr>
+<tr><td><strong>科学上网</strong></td><td>需要</td></tr>
+</tbody>
+</table>
+<!-- /resource:59 -->
+
 <!-- /category:%E6%97%A5%E7%94%A8%20%3E%20%E6%B8%B8%E6%88%8F -->
 </details>
 </blockquote>
