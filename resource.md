@@ -75,6 +75,16 @@
 </table>
 <!-- /resource:48 -->
 
+<!-- resource:86 -->
+<table>
+<tbody>
+<tr><td><strong>名称</strong></td><td><a href="https://github.com/AntSwordProject/antSword">Antsword</a></td></tr>
+<tr><td><strong>简介</strong></td><td>web用的webshell管理工具</td></tr>
+<tr><td><strong>科学上网</strong></td><td>不确定</td></tr>
+</tbody>
+</table>
+<!-- /resource:86 -->
+
 <!-- /category:%E7%BD%91%E5%AE%89%20%3E%20web -->
 </details>
 </blockquote>
@@ -220,6 +230,15 @@
 </tbody>
 </table>
 <!-- /resource:88 -->
+<!-- resource:87 -->
+<table>
+<tbody>
+<tr><td><strong>名称</strong></td><td><a href="https://docs.ocsjs.com/docs/app#download-list">OCS网课助手</a></td></tr>
+<tr><td><strong>简介</strong></td><td>刷课脚本，需要自己探索下，应该很有用</td></tr>
+<tr><td><strong>科学上网</strong></td><td>不需要</td></tr>
+</tbody>
+</table>
+<!-- /resource:87 -->
 
 <!-- /category:%E5%AD%A6%E4%B9%A0%20%3E%20%E8%8A%82%E6%97%B6%E5%B7%A5%E5%85%B7 -->
 </details>
