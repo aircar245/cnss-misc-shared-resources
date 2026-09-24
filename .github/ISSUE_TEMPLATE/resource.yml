@@ -32,7 +32,6 @@ body:
 
         <!-- resource-category-tree:start -->
         ```text
-        必推
         网安
         ├─ 大项
         ├─ web
@@ -42,16 +41,16 @@ body:
         ├─ dev
         ├─ sa
         └─ hpc
-        日用
-        ├─ 视频
-        ├─ 图片
-        └─ 游戏
+        程序员通用
         学习
         ├─ 微积分
         └─ 线代
         效率化
+        日用
+        ├─ 视频
+        ├─ 图片
+        └─ 游戏
         舒适感
-        程序员通用
         ```
         <!-- resource-category-tree:end -->
 
