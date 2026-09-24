@@ -241,17 +241,17 @@
 </details>
 
 <details>
-<summary>📁 <strong>电学习</strong></summary>
+<summary>📁 <strong>成电学习</strong></summary>
 
-<!-- category:%E7%94%B5%E5%AD%A6%E4%B9%A0 -->
+<!-- category:%E6%88%90%E7%94%B5%E5%AD%A6%E4%B9%A0 -->
 
 <blockquote>
 <details>
 <summary>📁 <strong>微积分</strong></summary>
 
-<!-- category:%E7%94%B5%E5%AD%A6%E4%B9%A0%20%3E%20%E5%BE%AE%E7%A7%AF%E5%88%86 -->
+<!-- category:%E6%88%90%E7%94%B5%E5%AD%A6%E4%B9%A0%20%3E%20%E5%BE%AE%E7%A7%AF%E5%88%86 -->
 
-<!-- /category:%E7%94%B5%E5%AD%A6%E4%B9%A0%20%3E%20%E5%BE%AE%E7%A7%AF%E5%88%86 -->
+<!-- /category:%E6%88%90%E7%94%B5%E5%AD%A6%E4%B9%A0%20%3E%20%E5%BE%AE%E7%A7%AF%E5%88%86 -->
 </details>
 </blockquote>
 
@@ -259,9 +259,9 @@
 <details>
 <summary>📁 <strong>线代</strong></summary>
 
-<!-- category:%E7%94%B5%E5%AD%A6%E4%B9%A0%20%3E%20%E7%BA%BF%E4%BB%A3 -->
+<!-- category:%E6%88%90%E7%94%B5%E5%AD%A6%E4%B9%A0%20%3E%20%E7%BA%BF%E4%BB%A3 -->
 
-<!-- /category:%E7%94%B5%E5%AD%A6%E4%B9%A0%20%3E%20%E7%BA%BF%E4%BB%A3 -->
+<!-- /category:%E6%88%90%E7%94%B5%E5%AD%A6%E4%B9%A0%20%3E%20%E7%BA%BF%E4%BB%A3 -->
 </details>
 </blockquote>
 
@@ -269,7 +269,7 @@
 <details>
 <summary>📁 <strong>节时工具</strong></summary>
 
-<!-- category:%E7%94%B5%E5%AD%A6%E4%B9%A0%20%3E%20%E8%8A%82%E6%97%B6%E5%B7%A5%E5%85%B7 -->
+<!-- category:%E6%88%90%E7%94%B5%E5%AD%A6%E4%B9%A0%20%3E%20%E8%8A%82%E6%97%B6%E5%B7%A5%E5%85%B7 -->
 
 <!-- resource:88 -->
 <table>
@@ -291,11 +291,11 @@
 </table>
 <!-- /resource:87 -->
 
-<!-- /category:%E7%94%B5%E5%AD%A6%E4%B9%A0%20%3E%20%E8%8A%82%E6%97%B6%E5%B7%A5%E5%85%B7 -->
+<!-- /category:%E6%88%90%E7%94%B5%E5%AD%A6%E4%B9%A0%20%3E%20%E8%8A%82%E6%97%B6%E5%B7%A5%E5%85%B7 -->
 </details>
 </blockquote>
 
-<!-- /category:%E7%94%B5%E5%AD%A6%E4%B9%A0 -->
+<!-- /category:%E6%88%90%E7%94%B5%E5%AD%A6%E4%B9%A0 -->
 </details>
 
 <details>
