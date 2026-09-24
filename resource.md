@@ -263,6 +263,16 @@
 
 <!-- category:%E6%95%88%E7%8E%87%E5%8C%96 -->
 
+<!-- resource:98 -->
+<table>
+<tbody>
+<tr><td><strong>名称</strong></td><td><a href="https://www.voidtools.com/zh-cn/">Everything</a></td></tr>
+<tr><td><strong>简介</strong></td><td>根据文件名快速查找相关文件的工具的下载页面。</td></tr>
+<tr><td><strong>科学上网</strong></td><td>不需要</td></tr>
+</tbody>
+</table>
+<!-- /resource:98 -->
+
 <!-- /category:%E6%95%88%E7%8E%87%E5%8C%96 -->
 </details>
 
