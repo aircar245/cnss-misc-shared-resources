@@ -191,6 +191,16 @@
 
 <!-- category:%E6%97%A5%E7%94%A8%20%3E%20%E5%9B%BE%E7%89%87 -->
 
+<!-- resource:70 -->
+<table>
+<tbody>
+<tr><td><strong>名称</strong></td><td><a href="https://imgbb.com/">ImgBB</a></td></tr>
+<tr><td><strong>简介</strong></td><td>一个在线传图网站，你把图片上传以后，就能以网页链接的形式解析。非常好用👍</td></tr>
+<tr><td><strong>科学上网</strong></td><td>不需要</td></tr>
+</tbody>
+</table>
+<!-- /resource:70 -->
+
 <!-- /category:%E6%97%A5%E7%94%A8%20%3E%20%E5%9B%BE%E7%89%87 -->
 </details>
 </blockquote>
@@ -247,7 +257,7 @@
 </details>
 
 <details>
-<summary>📁 <strong>程序员通用</strong></summary>
+<summary>📁 <strong>程序员常用</strong></summary>
 
 <!-- category:%E7%A8%8B%E5%BA%8F%E5%91%98%E5%B8%B8%E7%94%A8 -->
 
