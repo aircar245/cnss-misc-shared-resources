@@ -205,6 +205,26 @@
 </details>
 </blockquote>
 
+<blockquote>
+<details>
+<summary>📁 <strong>节时工具</strong></summary>
+
+<!-- category:%E5%AD%A6%E4%B9%A0%20%3E%20%E8%8A%82%E6%97%B6%E5%B7%A5%E5%85%B7 -->
+
+<!-- resource:88 -->
+<table>
+<tbody>
+<tr><td><strong>名称</strong></td><td><a href="https://ginnnnnn.top/mooc">GinsMooc</a></td></tr>
+<tr><td><strong>简介</strong></td><td>可看慕课答案</td></tr>
+<tr><td><strong>科学上网</strong></td><td>不需要</td></tr>
+</tbody>
+</table>
+<!-- /resource:88 -->
+
+<!-- /category:%E5%AD%A6%E4%B9%A0%20%3E%20%E8%8A%82%E6%97%B6%E5%B7%A5%E5%85%B7 -->
+</details>
+</blockquote>
+
 <!-- /category:%E5%AD%A6%E4%B9%A0 -->
 </details>
 
@@ -295,7 +315,7 @@
 </details>
 
 <details>
-<summary>📁 <strong>有趣的网站</strong></summary>
+<summary>📁 <strong>舒适感</strong></summary>
 
 <!-- category:%E8%88%92%E9%80%82%E6%84%9F -->
 
