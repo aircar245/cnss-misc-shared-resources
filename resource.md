@@ -247,7 +247,7 @@
 </details>
 
 <details>
-<summary>📁 <strong>程序员常用</strong></summary>
+<summary>📁 <strong>程序员通用</strong></summary>
 
 <!-- category:%E7%A8%8B%E5%BA%8F%E5%91%98%E5%B8%B8%E7%94%A8 -->
 
