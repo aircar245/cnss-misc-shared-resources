@@ -43,6 +43,16 @@
 </table>
 <!-- /resource:50 -->
 
+<!-- resource:55 -->
+<table>
+<tbody>
+<tr><td><strong>名称</strong></td><td><a href="https://bbs.kanxue.com/">看雪安全社区</a></td></tr>
+<tr><td><strong>简介</strong></td><td>这是一个安全论坛，里面可以看些有意思的网安讨论</td></tr>
+<tr><td><strong>科学上网</strong></td><td>不需要</td></tr>
+</tbody>
+</table>
+<!-- /resource:55 -->
+
 <!-- /category:%E7%BD%91%E5%AE%89%20%3E%20%E5%A4%A7%E9%A1%B9 -->
 </details>
 </blockquote>
