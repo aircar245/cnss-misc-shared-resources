@@ -53,6 +53,16 @@
 </table>
 <!-- /resource:55 -->
 
+<!-- resource:60 -->
+<table>
+<tbody>
+<tr><td><strong>名称</strong></td><td><a href="https://wiki.wgpsec.org/knowledge/ctf/ctf.html">狼组安全团队公开知识库</a></td></tr>
+<tr><td><strong>简介</strong></td><td>一个CTF公开知识库，里面有很多有意思的知识。</td></tr>
+<tr><td><strong>科学上网</strong></td><td>不需要</td></tr>
+</tbody>
+</table>
+<!-- /resource:60 -->
+
 <!-- /category:%E7%BD%91%E5%AE%89%20%3E%20%E5%A4%A7%E9%A1%B9 -->
 </details>
 </blockquote>
