@@ -359,5 +359,15 @@
 
 <!-- category:%E6%9C%89%E8%B6%A3%E7%9A%84%E7%BD%91%E7%AB%99 -->
 
+<!-- resource:96 -->
+<table>
+<tbody>
+<tr><td><strong>名称</strong></td><td><a href="chrome://dino/">谷歌小恐龙</a></td></tr>
+<tr><td><strong>简介</strong></td><td>谷歌小恐龙，无论有没有网都能玩</td></tr>
+<tr><td><strong>科学上网</strong></td><td>不需要</td></tr>
+</tbody>
+</table>
+<!-- /resource:96 -->
+
 <!-- /category:%E6%9C%89%E8%B6%A3%E7%9A%84%E7%BD%91%E7%AB%99 -->
 </details>
