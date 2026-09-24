@@ -91,3 +91,21 @@
 
 <!-- /category:CTF -->
 </details>
+
+<details>
+<summary>📁 <strong>CCF</strong></summary>
+
+<!-- category:CCF -->
+
+<!-- resource:38 -->
+<table>
+<tbody>
+<tr><td><strong>名称</strong></td><td><a href="https://www.baidu.com">666</a></td></tr>
+<tr><td><strong>简介</strong></td><td>??</td></tr>
+<tr><td><strong>科学上网</strong></td><td>不需要</td></tr>
+</tbody>
+</table>
+<!-- /resource:38 -->
+
+<!-- /category:CCF -->
+</details>
