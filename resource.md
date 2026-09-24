@@ -5,24 +5,6 @@
 > 点击分类标题展开，再点击子分类查看资源。每张卡片固定为三行：网站名称、简要介绍、是否需要科学上网。
 
 <details>
-<summary>📁 <strong>必推</strong></summary>
-
-<!-- category:%E5%BF%85%E6%8E%A8 -->
-
-<!-- resource:46 -->
-<table>
-<tbody>
-<tr><td><strong>名称</strong></td><td><a href="https://z-library.im/">Z-library</a></td></tr>
-<tr><td><strong>简介</strong></td><td>这是一个电子书下载网站，普通用户每天可以下载10份书籍，适合每个学习者</td></tr>
-<tr><td><strong>科学上网</strong></td><td>不需要</td></tr>
-</tbody>
-</table>
-<!-- /resource:46 -->
-
-<!-- /category:%E5%BF%85%E6%8E%A8 -->
-</details>
-
-<details>
 <summary>📁 <strong>网安</strong></summary>
 
 <!-- category:%E7%BD%91%E5%AE%89 -->
