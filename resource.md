@@ -180,6 +180,7 @@
 </tbody>
 </table>
 <!-- /resource:61 -->
+
 <!-- resource:62 -->
 <table>
 <tbody>
@@ -266,7 +267,7 @@
 </details>
 
 <details>
-<summary>📁 <strong>程序员通用</strong></summary>
+<summary>📁 <strong>程序员常用</strong></summary>
 
 <!-- category:%E7%A8%8B%E5%BA%8F%E5%91%98%E5%B8%B8%E7%94%A8 -->
 
@@ -307,4 +308,22 @@
 <!-- category:%E8%88%92%E9%80%82%E6%84%9F -->
 
 <!-- /category:%E8%88%92%E9%80%82%E6%84%9F -->
+</details>
+
+<details>
+<summary>📁 <strong>程序员通用</strong></summary>
+
+<!-- category:%E7%A8%8B%E5%BA%8F%E5%91%98%E9%80%9A%E7%94%A8 -->
+
+<!-- resource:73 -->
+<table>
+<tbody>
+<tr><td><strong>名称</strong></td><td><a href="https://www.geeksforgeeks.org/">GeeksForGeeks</a></td></tr>
+<tr><td><strong>简介</strong></td><td>一个知识分布非常广泛的在线代码知识学习或代码练习平台。</td></tr>
+<tr><td><strong>科学上网</strong></td><td>需要</td></tr>
+</tbody>
+</table>
+<!-- /resource:73 -->
+
+<!-- /category:%E7%A8%8B%E5%BA%8F%E5%91%98%E9%80%9A%E7%94%A8 -->
 </details>
