@@ -171,6 +171,15 @@
 
 <!-- category:%E6%97%A5%E7%94%A8%20%3E%20%E8%A7%86%E9%A2%91 -->
 
+<!-- resource:61 -->
+<table>
+<tbody>
+<tr><td><strong>名称</strong></td><td><a href="https://obsproject.com/">OBS Studio</a></td></tr>
+<tr><td><strong>简介</strong></td><td>一个录屏工具的下载网页。</td></tr>
+<tr><td><strong>科学上网</strong></td><td>不需要</td></tr>
+</tbody>
+</table>
+<!-- /resource:61 -->
 <!-- resource:62 -->
 <table>
 <tbody>
