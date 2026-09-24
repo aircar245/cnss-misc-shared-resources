@@ -187,6 +187,16 @@
 </table>
 <!-- /resource:73 -->
 
+<!-- resource:92 -->
+<table>
+<tbody>
+<tr><td><strong>名称</strong></td><td><a href="https://stackoverflow.com/">StackOverflow</a></td></tr>
+<tr><td><strong>简介</strong></td><td>一个知识讨论社区网站</td></tr>
+<tr><td><strong>科学上网</strong></td><td>需要</td></tr>
+</tbody>
+</table>
+<!-- /resource:92 -->
+
 <!-- /category:%E7%A8%8B%E5%BA%8F%E5%91%98%E9%80%9A%E7%94%A8 -->
 </details>
 
@@ -230,6 +240,7 @@
 </tbody>
 </table>
 <!-- /resource:88 -->
+
 <!-- resource:87 -->
 <table>
 <tbody>
