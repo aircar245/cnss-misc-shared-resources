@@ -11,7 +11,7 @@
 
 <blockquote>
 <details>
-<summary>📁 <strong>大项</strong></summary>
+<summary>📁 <strong>全方向</strong></summary>
 
 <!-- category:%E7%BD%91%E5%AE%89%20%3E%20%E5%A4%A7%E9%A1%B9 -->
 
