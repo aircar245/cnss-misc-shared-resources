@@ -201,6 +201,16 @@
 
 <!-- category:%E7%A8%8B%E5%BA%8F%E5%91%98%E5%B8%B8%E7%94%A8 -->
 
+<!-- resource:54 -->
+<table>
+<tbody>
+<tr><td><strong>名称</strong></td><td><a href="https://www.edclub.com/sportal/program-3.game">TypingClub</a></td></tr>
+<tr><td><strong>简介</strong></td><td>这是一个打字初学者和中等水平者的训练网站</td></tr>
+<tr><td><strong>科学上网</strong></td><td>不需要</td></tr>
+</tbody>
+</table>
+<!-- /resource:54 -->
+
 <!-- /category:%E7%A8%8B%E5%BA%8F%E5%91%98%E5%B8%B8%E7%94%A8 -->
 </details>
 
