@@ -214,6 +214,82 @@ jobs:
               const leafEnd = categoryEnd(categoryParts);
               catalog = insertBefore(catalog, leafEnd, resourceBlock);
             }
+            const categoryRecords = [];
+            const categoryPattern = /<!-- category:([^ ]+) -->/g;
+            for (const match of catalog.matchAll(categoryPattern)) {
+              let decodedPath;
+              try {
+                decodedPath = decodeURIComponent(match[1]);
+              } catch {
+                continue;
+              }
+              const parts = decodedPath.split(' > ').map((part) => part.trim()).filter(Boolean);
+              const key = parts.join(' > ');
+              const endMarker = categoryEnd(parts);
+              const endIndex = catalog.indexOf(endMarker, match.index + match[0].length);
+              if (!parts.length || !key || endIndex < 0 || categoryRecords.some((record) => record.key === key)) {
+                continue;
+              }
+              categoryRecords.push({
+                key,
+                parts,
+                start: match.index,
+                end: endIndex + endMarker.length
+              });
+            }
+            const roots = [];
+            const nodesByKey = new Map();
+            const getNode = (parts) => {
+              const key = parts.join(' > ');
+              let node = nodesByKey.get(key);
+              if (!node) {
+                node = { key, parts, children: [], resources: [] };
+                nodesByKey.set(key, node);
+                if (parts.length === 1) {
+                  roots.push(node);
+                } else {
+                  const parent = getNode(parts.slice(0, -1));
+                  parent.children.push(node);
+                }
+              }
+              return node;
+            };
+            for (const record of categoryRecords) getNode(record.parts);
+            const resourcePattern = /<!-- resource:([^\s]+) -->[\s\S]*?<!-- \/resource:\1 -->/g;
+            for (const match of catalog.matchAll(resourcePattern)) {
+              const containing = categoryRecords
+                .filter((record) => record.start < match.index && match.index < record.end)
+                .sort((left, right) => right.parts.length - left.parts.length || right.start - left.start);
+              if (containing.length) {
+                nodesByKey.get(containing[0].key).resources.push(match[0].trim());
+              }
+            }
+            const renderSortedCategory = (node) => {
+              const block = [
+                '<details>',
+                '<summary>📁 <strong>' + html(node.parts[node.parts.length - 1]) + '</strong></summary>',
+                '',
+                categoryStart(node.parts),
+                ''
+              ];
+              for (const child of node.children) {
+                const childBlock = renderSortedCategory(child);
+                block.push(child.parts.length > 1
+                  ? '<blockquote>' + newline + childBlock + newline + '</blockquote>'
+                  : childBlock);
+                block.push('');
+              }
+              for (const resource of node.resources) {
+                block.push(resource, '');
+              }
+              block.push(categoryEnd(node.parts), '</details>');
+              return block.join(newline);
+            };
+            const firstDetailsIndex = catalog.indexOf('<details>');
+            if (roots.length && firstDetailsIndex >= 0) {
+              const prefix = catalog.slice(0, firstDetailsIndex).trimEnd();
+              catalog = prefix + newline + newline + roots.map(renderSortedCategory).join(newline + newline) + newline;
+            }
             const fileUpdate = {
               owner,
               repo,
