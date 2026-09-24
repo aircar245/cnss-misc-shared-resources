@@ -53,6 +53,16 @@
 
 <!-- category:%E7%BD%91%E5%AE%89%20%3E%20web -->
 
+<!-- resource:48 -->
+<table>
+<tbody>
+<tr><td><strong>名称</strong></td><td><a href="https://portswigger.net/burp/downloads">BurpSuite</a></td></tr>
+<tr><td><strong>简介</strong></td><td>一个常用的批量抓包发包的工具的下载网页。</td></tr>
+<tr><td><strong>科学上网</strong></td><td>不需要</td></tr>
+</tbody>
+</table>
+<!-- /resource:48 -->
+
 <!-- /category:%E7%BD%91%E5%AE%89%20%3E%20web -->
 </details>
 </blockquote>
