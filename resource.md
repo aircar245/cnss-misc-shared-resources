@@ -309,7 +309,7 @@
 </details>
 
 <details>
-<summary>📁 <strong>日用</strong></summary>
+<summary>📁 <strong>日常用</strong></summary>
 
 <!-- category:%E6%97%A5%E7%94%A8 -->
 
