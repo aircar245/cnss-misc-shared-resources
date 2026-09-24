@@ -171,7 +171,7 @@
 <table>
 <tbody>
 <tr><td><strong>名称</strong></td><td><a href="https://www.geeksforgeeks.org/">GeeksForGeeks</a></td></tr>
-<tr><td><strong>简介</strong></td><td>一个知识分布非常广泛的在线代码知识学习或代码练习平台。</td></tr>
+<tr><td><strong>简介</strong></td><td>一个知识分类非常全面的在线代码知识学习或代码练习平台。</td></tr>
 <tr><td><strong>科学上网</strong></td><td>需要</td></tr>
 </tbody>
 </table>
@@ -295,7 +295,7 @@
 </details>
 
 <details>
-<summary>📁 <strong>舒适</strong></summary>
+<summary>📁 <strong>有趣的网站</strong></summary>
 
 <!-- category:%E8%88%92%E9%80%82%E6%84%9F -->
 
