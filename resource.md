@@ -15,16 +15,6 @@
 
 <!-- category:CTF%20%3E%20%E5%B7%A5%E5%85%B7 -->
 
-<!-- resource:26 -->
-<table>
-<tbody>
-<tr><td><strong>名称</strong></td><td><a href="https://www.baidu.com">???</a></td></tr>
-<tr><td><strong>简介</strong></td><td>学习用</td></tr>
-<tr><td><strong>科学上网</strong></td><td>不需要</td></tr>
-</tbody>
-</table>
-<!-- /resource:26 -->
-
 <blockquote>
 <details>
 <summary>📁 <strong>然后呢</strong></summary>
@@ -75,6 +65,16 @@
 </details>
 </blockquote>
 
+<!-- resource:26 -->
+<table>
+<tbody>
+<tr><td><strong>名称</strong></td><td><a href="https://www.baidu.com">???</a></td></tr>
+<tr><td><strong>简介</strong></td><td>学习用</td></tr>
+<tr><td><strong>科学上网</strong></td><td>不需要</td></tr>
+</tbody>
+</table>
+<!-- /resource:26 -->
+
 <!-- resource:36 -->
 <table>
 <tbody>
@@ -108,4 +108,22 @@
 <!-- /resource:38 -->
 
 <!-- /category:CCF -->
+</details>
+
+<details>
+<summary>📁 <strong>CBB</strong></summary>
+
+<!-- category:CBB -->
+
+<!-- resource:41 -->
+<table>
+<tbody>
+<tr><td><strong>名称</strong></td><td><a href="https://www.baidu.com">？？</a></td></tr>
+<tr><td><strong>简介</strong></td><td>1</td></tr>
+<tr><td><strong>科学上网</strong></td><td>不需要</td></tr>
+</tbody>
+</table>
+<!-- /resource:41 -->
+
+<!-- /category:CBB -->
 </details>
