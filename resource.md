@@ -33,6 +33,26 @@
 
 <!-- category:%E7%BD%91%E5%AE%89%20%3E%20%E5%A4%A7%E9%A1%B9 -->
 
+<!-- resource:50 -->
+<table>
+<tbody>
+<tr><td><strong>名称</strong></td><td><a href="https://ctf2.dasctf.com/explorer">CTF2</a></td></tr>
+<tr><td><strong>简介</strong></td><td>很多人都在用的CTF靶场，可以在里面练手</td></tr>
+<tr><td><strong>科学上网</strong></td><td>不需要</td></tr>
+</tbody>
+</table>
+<!-- /resource:50 -->
+
+<!-- resource:55 -->
+<table>
+<tbody>
+<tr><td><strong>名称</strong></td><td><a href="https://bbs.kanxue.com/">看雪安全社区</a></td></tr>
+<tr><td><strong>简介</strong></td><td>这是一个安全论坛，里面可以看些有意思的网安讨论</td></tr>
+<tr><td><strong>科学上网</strong></td><td>不需要</td></tr>
+</tbody>
+</table>
+<!-- /resource:55 -->
+
 <!-- /category:%E7%BD%91%E5%AE%89%20%3E%20%E5%A4%A7%E9%A1%B9 -->
 </details>
 </blockquote>
@@ -52,6 +72,15 @@
 </tbody>
 </table>
 <!-- /resource:49 -->
+<!-- resource:48 -->
+<table>
+<tbody>
+<tr><td><strong>名称</strong></td><td><a href="https://portswigger.net/burp/downloads">BurpSuite</a></td></tr>
+<tr><td><strong>简介</strong></td><td>一个常用的批量抓包发包的工具的下载网页。</td></tr>
+<tr><td><strong>科学上网</strong></td><td>不需要</td></tr>
+</tbody>
+</table>
+<!-- /resource:48 -->
 
 <!-- /category:%E7%BD%91%E5%AE%89%20%3E%20web -->
 </details>
@@ -190,6 +219,16 @@
 <summary>📁 <strong>程序员常用</strong></summary>
 
 <!-- category:%E7%A8%8B%E5%BA%8F%E5%91%98%E5%B8%B8%E7%94%A8 -->
+
+<!-- resource:54 -->
+<table>
+<tbody>
+<tr><td><strong>名称</strong></td><td><a href="https://www.edclub.com/sportal/program-3.game">TypingClub</a></td></tr>
+<tr><td><strong>简介</strong></td><td>这是一个打字初学者和中等水平者的训练网站</td></tr>
+<tr><td><strong>科学上网</strong></td><td>不需要</td></tr>
+</tbody>
+</table>
+<!-- /resource:54 -->
 
 <!-- /category:%E7%A8%8B%E5%BA%8F%E5%91%98%E5%B8%B8%E7%94%A8 -->
 </details>

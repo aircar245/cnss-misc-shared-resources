@@ -59,8 +59,8 @@ body:
     id: category
     attributes:
       label: 分类
-      description: '请按“大分类 > 小分类”填写；目录以仓库根目录 resource.md 的最新内容为准，审核时会统一调整。'
-      placeholder: 例如：CTF > 工具
+      description: '请按“大分类>小分类”填写；目录结构已经在上面展示了，如果你输入错了，审核时会统一调整。'
+      placeholder: 例如：网安>大项
     validations:
       required: true
   - type: textarea
