@@ -261,6 +261,16 @@
 </table>
 <!-- /resource:54 -->
 
+<!-- resource:63 -->
+<table>
+<tbody>
+<tr><td><strong>名称</strong></td><td><a href="https://dash.pqjc.site/">赔钱机场</a></td></tr>
+<tr><td><strong>简介</strong></td><td>梯子，懂的都懂。比较便宜，可以自己摸索下。</td></tr>
+<tr><td><strong>科学上网</strong></td><td>不需要</td></tr>
+</tbody>
+</table>
+<!-- /resource:63 -->
+
 <!-- /category:%E7%A8%8B%E5%BA%8F%E5%91%98%E5%B8%B8%E7%94%A8 -->
 </details>
 
