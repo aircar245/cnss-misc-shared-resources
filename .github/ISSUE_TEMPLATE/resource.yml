@@ -32,13 +32,26 @@ body:
 
         <!-- resource-category-tree:start -->
         ```text
-        CTF
-        └─ 工具
-           ├─ 然后呢
-           └─ 工具
-              └─ 工具
-        CCF
-        CBB
+        必推
+        网安
+        ├─ 大项
+        ├─ web
+        ├─ re
+        ├─ pwn
+        ├─ cry
+        ├─ dev
+        ├─ sa
+        └─ hpc
+        日用
+        ├─ 视频
+        ├─ 图片
+        └─ 游戏
+        学习
+        ├─ 微积分
+        └─ 线代
+        程序员常用
+        效率化
+        舒适感
         ```
         <!-- resource-category-tree:end -->
 
