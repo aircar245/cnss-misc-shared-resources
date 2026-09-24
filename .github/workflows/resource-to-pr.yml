@@ -154,7 +154,7 @@ jobs:
             const categoryParts = (category || '未分类')
               .split('>')
               .map((part) => part.trim())
-              .filter(Boolean);
+              .filter(Boolean)  .map((part) => part === '程序员常用' ? '程序员通用' : part)  .filter((part, index, parts) => index === 0 || part !== parts[index - 1]);
             if (!categoryParts.length) categoryParts.push('未分类');
             const categoryStart = (parts) => '<!-- category:' + encodeURIComponent(parts.join(' > ')) + ' -->';
             const categoryEnd = (parts) => '<!-- /category:' + encodeURIComponent(parts.join(' > ')) + ' -->';
