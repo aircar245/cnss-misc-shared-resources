@@ -267,9 +267,25 @@
 </details>
 
 <details>
-<summary>📁 <strong>程序员常用</strong></summary>
+<summary>📁 <strong>效率化</strong></summary>
 
-<!-- category:%E7%A8%8B%E5%BA%8F%E5%91%98%E5%B8%B8%E7%94%A8 -->
+<!-- category:%E6%95%88%E7%8E%87%E5%8C%96 -->
+
+<!-- /category:%E6%95%88%E7%8E%87%E5%8C%96 -->
+</details>
+
+<details>
+<summary>📁 <strong>舒适感</strong></summary>
+
+<!-- category:%E8%88%92%E9%80%82%E6%84%9F -->
+
+<!-- /category:%E8%88%92%E9%80%82%E6%84%9F -->
+</details>
+
+<details>
+<summary>📁 <strong>程序员通用</strong></summary>
+
+<!-- category:%E7%A8%8B%E5%BA%8F%E5%91%98%E9%80%9A%E7%94%A8 -->
 
 <!-- resource:54 -->
 <table>
@@ -290,30 +306,6 @@
 </tbody>
 </table>
 <!-- /resource:63 -->
-
-<!-- /category:%E7%A8%8B%E5%BA%8F%E5%91%98%E5%B8%B8%E7%94%A8 -->
-</details>
-
-<details>
-<summary>📁 <strong>效率化</strong></summary>
-
-<!-- category:%E6%95%88%E7%8E%87%E5%8C%96 -->
-
-<!-- /category:%E6%95%88%E7%8E%87%E5%8C%96 -->
-</details>
-
-<details>
-<summary>📁 <strong>舒适感</strong></summary>
-
-<!-- category:%E8%88%92%E9%80%82%E6%84%9F -->
-
-<!-- /category:%E8%88%92%E9%80%82%E6%84%9F -->
-</details>
-
-<details>
-<summary>📁 <strong>程序员通用</strong></summary>
-
-<!-- category:%E7%A8%8B%E5%BA%8F%E5%91%98%E9%80%9A%E7%94%A8 -->
 
 <!-- resource:73 -->
 <table>
