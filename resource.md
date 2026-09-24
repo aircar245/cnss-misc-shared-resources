@@ -72,6 +72,7 @@
 </tbody>
 </table>
 <!-- /resource:49 -->
+
 <!-- resource:48 -->
 <table>
 <tbody>
@@ -159,6 +160,16 @@
 <summary>📁 <strong>视频</strong></summary>
 
 <!-- category:%E6%97%A5%E7%94%A8%20%3E%20%E8%A7%86%E9%A2%91 -->
+
+<!-- resource:62 -->
+<table>
+<tbody>
+<tr><td><strong>名称</strong></td><td><a href="https://www.shotcut.org/download/">ShotCut</a></td></tr>
+<tr><td><strong>简介</strong></td><td>一个视频剪辑工具的下载网页。</td></tr>
+<tr><td><strong>科学上网</strong></td><td>不需要</td></tr>
+</tbody>
+</table>
+<!-- /resource:62 -->
 
 <!-- /category:%E6%97%A5%E7%94%A8%20%3E%20%E8%A7%86%E9%A2%91 -->
 </details>
