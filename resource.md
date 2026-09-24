@@ -75,6 +75,16 @@
 </table>
 <!-- /resource:48 -->
 
+<!-- resource:86 -->
+<table>
+<tbody>
+<tr><td><strong>名称</strong></td><td><a href="https://github.com/AntSwordProject/antSword">Antsword</a></td></tr>
+<tr><td><strong>简介</strong></td><td>web用的webshell管理工具</td></tr>
+<tr><td><strong>科学上网</strong></td><td>不确定</td></tr>
+</tbody>
+</table>
+<!-- /resource:86 -->
+
 <!-- /category:%E7%BD%91%E5%AE%89%20%3E%20web -->
 </details>
 </blockquote>
@@ -295,7 +305,7 @@
 </details>
 
 <details>
-<summary>📁 <strong>有趣的网站</strong></summary>
+<summary>📁 <strong>舒适感</strong></summary>
 
 <!-- category:%E8%88%92%E9%80%82%E6%84%9F -->
 
