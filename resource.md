@@ -157,15 +157,31 @@
 
 <!-- category:%E7%A8%8B%E5%BA%8F%E5%91%98%E9%80%9A%E7%94%A8 -->
 
-<!-- resource:54 -->
+<!-- resource:97 -->
 <table>
 <tbody>
-<tr><td><strong>名称</strong></td><td><a href="https://www.edclub.com/sportal/program-3.game">TypingClub</a></td></tr>
-<tr><td><strong>简介</strong></td><td>这是一个打字初学者和中等水平者的训练网站</td></tr>
+<tr><td><strong>名称</strong></td><td><a href="https://diskanalyzer.com/">WizTree</a></td></tr>
+<tr><td><strong>简介</strong></td><td>一个可以详细展示当前盘存储占用情况的工具的下载页面。</td></tr>
 <tr><td><strong>科学上网</strong></td><td>不需要</td></tr>
 </tbody>
 </table>
-<!-- /resource:54 -->
+<!-- /resource:97 -->
+
+<!-- resource:98 -->
+<table>
+<tbody>
+<tr><td><strong>名称</strong></td><td><a href="https://www.voidtools.com/zh-cn/">Everything</a></td></tr>
+<tr><td><strong>简介</strong></td><td>根据文件名快速查找相关文件的工具的下载页面。</td></tr>
+<tr><td><strong>科学上网</strong></td><td>不需要</td></tr>
+</tbody>
+</table>
+<!-- /resource:98 -->
+
+<blockquote>
+<details>
+<summary>📁 <strong>梯子</strong></summary>
+
+<!-- category:%E7%A8%8B%E5%BA%8F%E5%91%98%E9%80%9A%E7%94%A8%20%3E%20%E6%A2%AF%E5%AD%90 -->
 
 <!-- resource:63 -->
 <table>
@@ -176,6 +192,26 @@
 </tbody>
 </table>
 <!-- /resource:63 -->
+
+<!-- /category:%E7%A8%8B%E5%BA%8F%E5%91%98%E9%80%9A%E7%94%A8%20%3E%20%E6%A2%AF%E5%AD%90 -->
+</details>
+</blockquote>
+
+<blockquote>
+<details>
+<summary>📁 <strong>学习</strong></summary>
+
+<!-- category:%E7%A8%8B%E5%BA%8F%E5%91%98%E9%80%9A%E7%94%A8%20%3E%20%E5%AD%A6%E4%B9%A0 -->
+
+<!-- resource:54 -->
+<table>
+<tbody>
+<tr><td><strong>名称</strong></td><td><a href="https://www.edclub.com/sportal/program-3.game">TypingClub</a></td></tr>
+<tr><td><strong>简介</strong></td><td>这是一个打字初学者和中等水平者的训练网站</td></tr>
+<tr><td><strong>科学上网</strong></td><td>不需要</td></tr>
+</tbody>
+</table>
+<!-- /resource:54 -->
 
 <!-- resource:73 -->
 <table>
@@ -197,31 +233,25 @@
 </table>
 <!-- /resource:92 -->
 
-<!-- resource:97 -->
-<table>
-<tbody>
-<tr><td><strong>名称</strong></td><td><a href="https://diskanalyzer.com/">WizTree</a></td></tr>
-<tr><td><strong>简介</strong></td><td>一个可以详细展示当前盘存储占用情况的工具的下载页面。</td></tr>
-<tr><td><strong>科学上网</strong></td><td>不需要</td></tr>
-</tbody>
-</table>
-<!-- /resource:97 -->
+<!-- /category:%E7%A8%8B%E5%BA%8F%E5%91%98%E9%80%9A%E7%94%A8%20%3E%20%E5%AD%A6%E4%B9%A0 -->
+</details>
+</blockquote>
 
 <!-- /category:%E7%A8%8B%E5%BA%8F%E5%91%98%E9%80%9A%E7%94%A8 -->
 </details>
 
 <details>
-<summary>📁 <strong>学习</strong></summary>
+<summary>📁 <strong>电学习</strong></summary>
 
-<!-- category:%E5%AD%A6%E4%B9%A0 -->
+<!-- category:%E7%94%B5%E5%AD%A6%E4%B9%A0 -->
 
 <blockquote>
 <details>
 <summary>📁 <strong>微积分</strong></summary>
 
-<!-- category:%E5%AD%A6%E4%B9%A0%20%3E%20%E5%BE%AE%E7%A7%AF%E5%88%86 -->
+<!-- category:%E7%94%B5%E5%AD%A6%E4%B9%A0%20%3E%20%E5%BE%AE%E7%A7%AF%E5%88%86 -->
 
-<!-- /category:%E5%AD%A6%E4%B9%A0%20%3E%20%E5%BE%AE%E7%A7%AF%E5%88%86 -->
+<!-- /category:%E7%94%B5%E5%AD%A6%E4%B9%A0%20%3E%20%E5%BE%AE%E7%A7%AF%E5%88%86 -->
 </details>
 </blockquote>
 
@@ -229,9 +259,9 @@
 <details>
 <summary>📁 <strong>线代</strong></summary>
 
-<!-- category:%E5%AD%A6%E4%B9%A0%20%3E%20%E7%BA%BF%E4%BB%A3 -->
+<!-- category:%E7%94%B5%E5%AD%A6%E4%B9%A0%20%3E%20%E7%BA%BF%E4%BB%A3 -->
 
-<!-- /category:%E5%AD%A6%E4%B9%A0%20%3E%20%E7%BA%BF%E4%BB%A3 -->
+<!-- /category:%E7%94%B5%E5%AD%A6%E4%B9%A0%20%3E%20%E7%BA%BF%E4%BB%A3 -->
 </details>
 </blockquote>
 
@@ -239,7 +269,7 @@
 <details>
 <summary>📁 <strong>节时工具</strong></summary>
 
-<!-- category:%E5%AD%A6%E4%B9%A0%20%3E%20%E8%8A%82%E6%97%B6%E5%B7%A5%E5%85%B7 -->
+<!-- category:%E7%94%B5%E5%AD%A6%E4%B9%A0%20%3E%20%E8%8A%82%E6%97%B6%E5%B7%A5%E5%85%B7 -->
 
 <!-- resource:88 -->
 <table>
@@ -261,29 +291,11 @@
 </table>
 <!-- /resource:87 -->
 
-<!-- /category:%E5%AD%A6%E4%B9%A0%20%3E%20%E8%8A%82%E6%97%B6%E5%B7%A5%E5%85%B7 -->
+<!-- /category:%E7%94%B5%E5%AD%A6%E4%B9%A0%20%3E%20%E8%8A%82%E6%97%B6%E5%B7%A5%E5%85%B7 -->
 </details>
 </blockquote>
 
-<!-- /category:%E5%AD%A6%E4%B9%A0 -->
-</details>
-
-<details>
-<summary>📁 <strong>效率化</strong></summary>
-
-<!-- category:%E6%95%88%E7%8E%87%E5%8C%96 -->
-
-<!-- resource:98 -->
-<table>
-<tbody>
-<tr><td><strong>名称</strong></td><td><a href="https://www.voidtools.com/zh-cn/">Everything</a></td></tr>
-<tr><td><strong>简介</strong></td><td>根据文件名快速查找相关文件的工具的下载页面。</td></tr>
-<tr><td><strong>科学上网</strong></td><td>不需要</td></tr>
-</tbody>
-</table>
-<!-- /resource:98 -->
-
-<!-- /category:%E6%95%88%E7%8E%87%E5%8C%96 -->
+<!-- /category:%E7%94%B5%E5%AD%A6%E4%B9%A0 -->
 </details>
 
 <details>
