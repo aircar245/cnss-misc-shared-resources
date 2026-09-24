@@ -161,6 +161,80 @@
 </details>
 
 <details>
+<summary>📁 <strong>程序员通用</strong></summary>
+
+<!-- category:%E7%A8%8B%E5%BA%8F%E5%91%98%E9%80%9A%E7%94%A8 -->
+
+<!-- resource:54 -->
+<table>
+<tbody>
+<tr><td><strong>名称</strong></td><td><a href="https://www.edclub.com/sportal/program-3.game">TypingClub</a></td></tr>
+<tr><td><strong>简介</strong></td><td>这是一个打字初学者和中等水平者的训练网站</td></tr>
+<tr><td><strong>科学上网</strong></td><td>不需要</td></tr>
+</tbody>
+</table>
+<!-- /resource:54 -->
+
+<!-- resource:63 -->
+<table>
+<tbody>
+<tr><td><strong>名称</strong></td><td><a href="https://dash.pqjc.site/">赔钱机场</a></td></tr>
+<tr><td><strong>简介</strong></td><td>梯子，懂的都懂。比较便宜，可以自己摸索下。</td></tr>
+<tr><td><strong>科学上网</strong></td><td>不需要</td></tr>
+</tbody>
+</table>
+<!-- /resource:63 -->
+
+<!-- resource:73 -->
+<table>
+<tbody>
+<tr><td><strong>名称</strong></td><td><a href="https://www.geeksforgeeks.org/">GeeksForGeeks</a></td></tr>
+<tr><td><strong>简介</strong></td><td>一个知识分布非常广泛的在线代码知识学习或代码练习平台。</td></tr>
+<tr><td><strong>科学上网</strong></td><td>需要</td></tr>
+</tbody>
+</table>
+<!-- /resource:73 -->
+
+<!-- /category:%E7%A8%8B%E5%BA%8F%E5%91%98%E9%80%9A%E7%94%A8 -->
+</details>
+
+<details>
+<summary>📁 <strong>学习</strong></summary>
+
+<!-- category:%E5%AD%A6%E4%B9%A0 -->
+
+<blockquote>
+<details>
+<summary>📁 <strong>微积分</strong></summary>
+
+<!-- category:%E5%AD%A6%E4%B9%A0%20%3E%20%E5%BE%AE%E7%A7%AF%E5%88%86 -->
+
+<!-- /category:%E5%AD%A6%E4%B9%A0%20%3E%20%E5%BE%AE%E7%A7%AF%E5%88%86 -->
+</details>
+</blockquote>
+
+<blockquote>
+<details>
+<summary>📁 <strong>线代</strong></summary>
+
+<!-- category:%E5%AD%A6%E4%B9%A0%20%3E%20%E7%BA%BF%E4%BB%A3 -->
+
+<!-- /category:%E5%AD%A6%E4%B9%A0%20%3E%20%E7%BA%BF%E4%BB%A3 -->
+</details>
+</blockquote>
+
+<!-- /category:%E5%AD%A6%E4%B9%A0 -->
+</details>
+
+<details>
+<summary>📁 <strong>效率化</strong></summary>
+
+<!-- category:%E6%95%88%E7%8E%87%E5%8C%96 -->
+
+<!-- /category:%E6%95%88%E7%8E%87%E5%8C%96 -->
+</details>
+
+<details>
 <summary>📁 <strong>日用</strong></summary>
 
 <!-- category:%E6%97%A5%E7%94%A8 -->
@@ -239,83 +313,9 @@
 </details>
 
 <details>
-<summary>📁 <strong>学习</strong></summary>
-
-<!-- category:%E5%AD%A6%E4%B9%A0 -->
-
-<blockquote>
-<details>
-<summary>📁 <strong>微积分</strong></summary>
-
-<!-- category:%E5%AD%A6%E4%B9%A0%20%3E%20%E5%BE%AE%E7%A7%AF%E5%88%86 -->
-
-<!-- /category:%E5%AD%A6%E4%B9%A0%20%3E%20%E5%BE%AE%E7%A7%AF%E5%88%86 -->
-</details>
-</blockquote>
-
-<blockquote>
-<details>
-<summary>📁 <strong>线代</strong></summary>
-
-<!-- category:%E5%AD%A6%E4%B9%A0%20%3E%20%E7%BA%BF%E4%BB%A3 -->
-
-<!-- /category:%E5%AD%A6%E4%B9%A0%20%3E%20%E7%BA%BF%E4%BB%A3 -->
-</details>
-</blockquote>
-
-<!-- /category:%E5%AD%A6%E4%B9%A0 -->
-</details>
-
-<details>
-<summary>📁 <strong>效率化</strong></summary>
-
-<!-- category:%E6%95%88%E7%8E%87%E5%8C%96 -->
-
-<!-- /category:%E6%95%88%E7%8E%87%E5%8C%96 -->
-</details>
-
-<details>
 <summary>📁 <strong>舒适感</strong></summary>
 
 <!-- category:%E8%88%92%E9%80%82%E6%84%9F -->
 
 <!-- /category:%E8%88%92%E9%80%82%E6%84%9F -->
-</details>
-
-<details>
-<summary>📁 <strong>程序员通用</strong></summary>
-
-<!-- category:%E7%A8%8B%E5%BA%8F%E5%91%98%E9%80%9A%E7%94%A8 -->
-
-<!-- resource:54 -->
-<table>
-<tbody>
-<tr><td><strong>名称</strong></td><td><a href="https://www.edclub.com/sportal/program-3.game">TypingClub</a></td></tr>
-<tr><td><strong>简介</strong></td><td>这是一个打字初学者和中等水平者的训练网站</td></tr>
-<tr><td><strong>科学上网</strong></td><td>不需要</td></tr>
-</tbody>
-</table>
-<!-- /resource:54 -->
-
-<!-- resource:63 -->
-<table>
-<tbody>
-<tr><td><strong>名称</strong></td><td><a href="https://dash.pqjc.site/">赔钱机场</a></td></tr>
-<tr><td><strong>简介</strong></td><td>梯子，懂的都懂。比较便宜，可以自己摸索下。</td></tr>
-<tr><td><strong>科学上网</strong></td><td>不需要</td></tr>
-</tbody>
-</table>
-<!-- /resource:63 -->
-
-<!-- resource:73 -->
-<table>
-<tbody>
-<tr><td><strong>名称</strong></td><td><a href="https://www.geeksforgeeks.org/">GeeksForGeeks</a></td></tr>
-<tr><td><strong>简介</strong></td><td>一个知识分布非常广泛的在线代码知识学习或代码练习平台。</td></tr>
-<tr><td><strong>科学上网</strong></td><td>需要</td></tr>
-</tbody>
-</table>
-<!-- /resource:73 -->
-
-<!-- /category:%E7%A8%8B%E5%BA%8F%E5%91%98%E9%80%9A%E7%94%A8 -->
 </details>
