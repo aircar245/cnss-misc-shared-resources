@@ -197,6 +197,16 @@
 </table>
 <!-- /resource:92 -->
 
+<!-- resource:97 -->
+<table>
+<tbody>
+<tr><td><strong>名称</strong></td><td><a href="https://diskanalyzer.com/">WizTree</a></td></tr>
+<tr><td><strong>简介</strong></td><td>一个可以详细展示当前盘存储占用情况的工具的下载页面。</td></tr>
+<tr><td><strong>科学上网</strong></td><td>不需要</td></tr>
+</tbody>
+</table>
+<!-- /resource:97 -->
+
 <!-- /category:%E7%A8%8B%E5%BA%8F%E5%91%98%E9%80%9A%E7%94%A8 -->
 </details>
 
