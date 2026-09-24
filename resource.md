@@ -295,7 +295,7 @@
 </details>
 
 <details>
-<summary>📁 <strong>舒适感</strong></summary>
+<summary>📁 <strong>舒适</strong></summary>
 
 <!-- category:%E8%88%92%E9%80%82%E6%84%9F -->
 
